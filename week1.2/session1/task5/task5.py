@@ -3,14 +3,12 @@
 rivers = {
     "London": "Thames",
     "Leeds": "Aire",
-    "Liverpool": "Mersey"
+    "Liverpool": "Mersey",
+    "Cairo": "Nile"
 }
-
 print(rivers)
 
 # Add two new entries to the rivers database
-
-# Display all the keys
 
 # Display all the values
 
