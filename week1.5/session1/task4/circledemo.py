@@ -1,5 +1,4 @@
 # Week 1.5, Session 1: Task 4
-
 # Add one or more import statements here to give this program
 # access to the Point and Circle classes defined in geometry.py
 
@@ -8,3 +7,9 @@
 #  - Creates a Circle object, using the Point object and a value for radius
 #  - Displays the area of the circle
 #  - Displays the perimeter of the circle
+point= (0,0)
+circle = (point, 7)
+area = 3.14 * (7**2)
+perimeter = 7 * 2 * 3.14
+print (area)
+print (perimeter)

@@ -6,8 +6,10 @@ class Point:
     """
 
     # Add constructor here
-
+    p = Point(p.x, p.y)
     # Add distance() method here
+    def distance_to(self):
+        return math.hypot(self.x , self.y)
 
     # Add distance_to() method here
     # (This will need a parameter representing another point)
