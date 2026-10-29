@@ -21,23 +21,30 @@ class Dataset:
 
         Any existing data will be deleted.
         """
+        self.data.clear()
+        with open(filename, "r", encoding="utf-8") as infile:
+            for line in infile:
+                value = line.strip()
+                if value:
+                    self.data.append(float(value))
 
     def __len__(self):
         """
         Returns the size of this Dataset.
         """
+        return len(self.data)
 
     def __getitem__(self, index):
         """
         Returns the value at the specified position in this Dataset.
         """
+        return self.data[index]
 
     def mean(self):
         """
-        Returns the arithmetic mean of the values in this Dataset.
-        """
+        Returns the arithmetic mean of the values in this Data
+        
 
     def median(self):
         """
-        Returns the median of the values in this Dataset.
-        """
+        Returns the median of the values in this 

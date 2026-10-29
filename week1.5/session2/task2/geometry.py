@@ -50,6 +50,7 @@ class Circle:
         self.radius = radius
         self.centre = centre
 
+
     def area(self):
         """
         Returns the area of this Circle.
@@ -63,3 +64,6 @@ class Circle:
         return 2.0 * math.pi * self.radius
 
     # Implement a __str__() method here
+    def __str__(self):
+
+        return f"({self.radius}, {self.centre})"
