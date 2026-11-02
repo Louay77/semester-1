@@ -13,7 +13,7 @@ Import the `datetime` class from Python' standard library and create a
 Then import the `Quake` class and attempt to create an object:
 
     from quake import Quake
-    q = Quake(now, 139.9, 28.0, 473.0, 7.0)
+
 
 Finally, print the object:
 
