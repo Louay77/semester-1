@@ -14,6 +14,8 @@ def test_point_distance():
 def test_point_distance_to():
     p1 = Point(0, 0)
     p2 = Point(3, 4)
+    assert Point(0.0).distance_to()== 0.0
+    assert Point(3,4).distance_to()== 
     
     # complete the implementation for
     # testing distance_to()
