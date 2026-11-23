@@ -1,3 +1,5 @@
+SELECT name. postcode* FROM restaurants
+where restaurants
 .headers on
 .mode column
 
